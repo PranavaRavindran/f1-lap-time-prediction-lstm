@@ -83,9 +83,6 @@ Dense(32, relu)
 ↓
 Dense(1)
 
-yaml
-Copy code
-
 Purpose:
 - LSTM learns temporal structure  
 - Dropout reduces overfitting  
