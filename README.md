@@ -83,9 +83,6 @@ Dense(32, relu)
 ↓
 Dense(1)
 
-yaml
-Copy code
-
 Purpose:
 - LSTM learns temporal structure  
 - Dropout reduces overfitting  
@@ -128,34 +125,17 @@ Interpretation:
 
 ## Visualizations
 
-Create a folder:
-
-plots/
-
-scss
-Copy code
-
-Place your images inside it. GitHub will display them automatically.
-
 ### 1. Training Curves
-
-shell
-Copy code
+![Training Curves](plots/training_curves.png)
 
 ### 2. Actual vs Predicted Scatter
-
-shell
-Copy code
+![Actual vs Predicted](plots/actual_vs_pred_scatter.png)
 
 ### 3. Residual Distribution
-
-shell
-Copy code
+![Residual Distribution](plots/residual_hist.png)
 
 ### 4. Actual vs Predicted Sequence (first 300 samples)
-
-yaml
-Copy code
+![Sample Comparison](plots/sample_sequence.png)
 
 ---
 
@@ -165,14 +145,8 @@ Copy code
 git clone https://github.com/<your-username>/<your-repo>.git
 cd <your-repo>
 
-shell
-Copy code
-
 ### Install Dependencies
 pip install -r requirements.txt
-
-yaml
-Copy code
 
 ### Run Notebook
 Open the notebook inside `notebooks/` and run all cells.
@@ -182,16 +156,13 @@ Plots will save automatically to `plots/`.
 ---
 
 ## Repository Structure
-
 .
-├── data/
-├── notebooks/
-├── models/
+├── fl_lap_prediction.ipynb
 ├── plots/
-├── requirements.txt
+│   ├── training_curves.png
+│   ├── actual_vs_pred_scatter.png
+│   ├── residual_hist.png
+│   └── sample_sequence.png
 └── README.md
-
-yaml
-Copy code
 
 ---
