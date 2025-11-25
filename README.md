@@ -164,5 +164,3 @@ Plots will save automatically to `plots/`.
 │   ├── residual_hist.png
 │   └── sample_sequence.png
 └── README.md
-
----
